@@ -12,6 +12,11 @@ body {
   flex-direction: column;
 }
 
+h1 {
+  font-family: 'Marck Script', cursive;
+  font-size: 2.9rem;
+}
+
 .content {
   max-width: 900px;
   width: 100%;
@@ -57,6 +62,7 @@ body {
   border: none;
   border-radius: 5px;
   font-weight: bold;
+  cursor: pointer;
 }
 
 .fancyOr {
