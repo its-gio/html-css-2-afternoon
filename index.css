@@ -118,7 +118,27 @@ body {
   font-size: .9rem;
 }
 
+.get-app {
+  font-size: .8rem;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.app-stores{
+  display: flex;
+}
+
+.app-stores div {
+  flex: 1;
+  margin: 5px;
+}
+
+.app-stores div img{
+  width: 100%;
+}
 /***** Footer *****/
 footer {
-  height: 150px;
+  display: flex;
+  height: 50px;
 }
+
